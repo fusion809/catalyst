@@ -1,0 +1,50 @@
+# Sage USE flags
+sci-mathematics/sage doc-html -doc-html-bin doc-pdf -doc-pdf-bin latex modular_decomposition sagenb
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=sci-mathematics/lcalc-1.23-r7 pari
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+=sci-mathematics/gmp-ecm-6.4.4-r2 -openmp
+# required by sci-libs/scipy-0.18.1::gentoo
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=dev-python/numpy-1.11.2-r1 lapack
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=sci-mathematics/pari-2.9.1-r1 doc data gmp
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=sci-mathematics/maxima-5.39.0-r1 ecls
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=sci-libs/pynac-0.7.5-r1 -giac
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=dev-python/ipython-5.3.0 notebook
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=sci-mathematics/flint-2.5.2-r1 ntl
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=sci-mathematics/glpk-4.61-r2 gmp
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=sci-libs/linbox-1.4.2-r2 sage
+# required by sci-mathematics/sage-7.6::sage-on-gentoo
+# required by sage (argument)
+>=sci-mathematics/eclib-20170330 flint
+# required by media-sound/pulseaudio-10.0::gentoo[alsa,alsa-plugin]
+# required by media-sound/blockify-3.6.3::fusion809
+# required by blockify (argument)
+>=media-plugins/alsa-plugins-1.1.1 pulseaudio
+# required by sci-mathematics/sage-7.6::sage-on-gentoo[doc-pdf]
+# required by sci-mathematics/sage-notebook-0.13::sage-on-gentoo
+>=app-text/texlive-2016 extra
+# required by dev-texlive/texlive-xetex-2016::gentoo
+# required by dev-texlive/texlive-formatsextra-2016::gentoo
+# required by app-text/texlive-2016::gentoo[extra]
+# required by sci-mathematics/sage-7.6::sage-on-gentoo[doc-pdf]
+# required by sci-mathematics/sage-notebook-0.13::sage-on-gentoo
+=app-text/texlive-core-2016-r5 xetex
+

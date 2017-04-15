@@ -1,0 +1,3 @@
+# Not required as =app-text/hunspell-1.6.1-r1 fixed it
+# per https://bugs.gentoo.org/show_bug.cgi?id=614178
+#kde-frameworks/sonnet -hunspell

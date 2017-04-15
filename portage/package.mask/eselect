@@ -1,0 +1,2 @@
+# Only use science overlay's eselect
+#app-admin/eselect::gentoo

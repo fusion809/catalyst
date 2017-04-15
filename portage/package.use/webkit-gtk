@@ -1,0 +1,436 @@
+# exactly one of (gles2, opengl) USE flags must be enabled
+net-libs/webkit-gtk -gles2
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-2.3::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=media-libs/glu-9.0.0-r1 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[xml]
+# required by app-emulation/wine (argument)
+>=dev-libs/libxslt-1.1.29-r1 abi_x86_32
+# required by sys-apps/systemd-233-r1::gentoo[pam]
+# required by sys-fs/udisks-2.1.8::gentoo[systemd]
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=virtual/pam-0-r1 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=net-print/cups-2.2.2-r3 abi_x86_32
+# required by x11-libs/libXcomposite-0.4.4-r1::gentoo
+# required by app-emulation/wine-2.3::gentoo[xcomposite]
+# required by app-emulation/wine (argument)
+>=x11-proto/compositeproto-0.4.2-r1 abi_x86_32
+# required by sys-libs/pam-1.3.0::gentoo
+# required by virtual/pam-0-r1::gentoo
+# required by sys-apps/systemd-233-r1::gentoo[pam]
+# required by sys-fs/udisks-2.1.8::gentoo[systemd]
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=sys-devel/flex-2.6.3-r1 abi_x86_32
+# required by x11-libs/libXxf86vm-1.1.4::gentoo
+# required by app-emulation/wine-2.3::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-proto/xf86vidmodeproto-2.3.1-r1 abi_x86_32
+# required by net-print/cups-2.2.2-r3::gentoo
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=virtual/pkgconfig-0-r1 abi_x86_32
+# required by media-libs/mesa-17.0.2::gentoo
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-libs/libdrm-2.4.75 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[alsa]
+# required by app-emulation/wine (argument)
+>=media-libs/alsa-lib-1.1.3 abi_x86_32
+# required by net-libs/gnutls-3.5.10::gentoo
+# required by net-print/cups-2.2.2-r3::gentoo[ssl]
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=dev-libs/nettle-3.3-r1 abi_x86_32
+# required by sys-libs/ncurses-6.0-r1::gentoo[gpm]
+# required by media-video/vlc-2.2.4-r1::gentoo[ncurses]
+# required by media-libs/phonon-vlc-0.9.1::gentoo
+# required by media-libs/phonon-4.9.1::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-5.9.4::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.7::gentoo
+>=sys-libs/gpm-1.20.7-r2 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[png]
+# required by app-emulation/wine (argument)
+>=media-libs/libpng-1.6.29 abi_x86_32
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.5.10::gentoo
+# required by net-print/cups-2.2.2-r3::gentoo[ssl]
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=dev-util/pkgconfig-0.29.2 abi_x86_32
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-2.3::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=virtual/opengl-7.0-r1 abi_x86_32
+# required by media-libs/lcms-2.8-r1::gentoo[tiff]
+# required by media-gfx/imagemagick-6.9.8.3::gentoo[lcms]
+# required by sci-mathematics/octave-4.2.1::gentoo[-graphicsmagick,imagemagick]
+# required by sci-mathematics/octave (argument)
+>=media-libs/tiff-4.0.7 abi_x86_32
+# required by media-libs/mesa-17.0.2::gentoo
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-libs/libxshmfence-1.2 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[xcomposite]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXcomposite-0.4.4-r1 abi_x86_32
+# required by net-nds/openldap-2.4.44-r1::gentoo[-libressl,-gnutls,ssl]
+# required by app-crypt/gnupg-2.1.19-r2::gentoo[ldap]
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=dev-libs/openssl-1.0.2k abi_x86_32
+# required by dev-libs/libxslt-1.1.29-r1::gentoo
+# required by sys-fs/udisks-2.1.8::gentoo
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=dev-libs/libxml2-2.9.4-r1 abi_x86_32
+# required by sys-libs/pam-1.3.0::gentoo[berkdb]
+# required by virtual/pam-0-r1::gentoo
+# required by sys-apps/systemd-233-r1::gentoo[pam]
+# required by sys-fs/udisks-2.1.8::gentoo[systemd]
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=sys-libs/db-6.0.35 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[nls]
+# required by app-emulation/wine (argument)
+>=sys-devel/gettext-0.19.8.1 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=virtual/glu-9.0-r1 abi_x86_32
+# required by sys-libs/gpm-1.20.7-r2::gentoo
+# required by www-client/w3m-0.5.3-r9::gentoo[gpm]
+# required by virtual/w3m-0::gentoo
+# required by app-text/xmlto-0.0.28-r1::gentoo[text]
+# required by sys-apps/dbus-1.10.16-r1::gentoo
+# required by media-video/vlc-2.2.4-r1::gentoo[dbus]
+# required by media-libs/phonon-vlc-0.9.1::gentoo
+# required by media-libs/phonon-4.9.1::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-5.9.4::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.7::gentoo
+>=sys-libs/ncurses-6.0-r1 abi_x86_32
+# required by media-libs/mesa-17.0.2::gentoo
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-proto/xf86driproto-2.1.1-r1 abi_x86_32
+# required by x11-libs/libXrandr-1.5.1::gentoo
+# required by app-emulation/wine-2.3::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-proto/randrproto-1.5.0 abi_x86_32
+# required by net-libs/gnutls-3.5.10::gentoo
+# required by net-print/cups-2.2.2-r3::gentoo[ssl]
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=dev-libs/libunistring-0.9.7 abi_x86_32
+# required by x11-libs/libXfixes-5.0.3::gentoo
+# required by x11-libs/libXcursor-1.1.14::gentoo
+# required by app-emulation/wine-2.3::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-proto/fixesproto-5.0-r1 abi_x86_32
+# required by x11-libs/libXrender-0.9.10::gentoo
+# required by x11-libs/libXcursor-1.1.14::gentoo
+# required by app-emulation/wine-2.3::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-proto/renderproto-0.11.1-r1 abi_x86_32
+# required by x11-libs/libXinerama-1.1.3::gentoo
+# required by app-emulation/wine-2.3::gentoo[xinerama]
+# required by app-emulation/wine (argument)
+>=x11-proto/xineramaproto-1.2.1-r1 abi_x86_32
+# required by dev-libs/nettle-3.3-r1::gentoo[gmp]
+# required by net-libs/gnutls-3.5.10::gentoo
+# required by net-print/cups-2.2.2-r3::gentoo[ssl]
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=dev-libs/gmp-6.1.2 abi_x86_32
+# required by net-libs/gnutls-3.5.10::gentoo[idn]
+# required by net-print/cups-2.2.2-r3::gentoo[ssl]
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=net-dns/libidn2-0.16-r2 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXrandr-1.5.1 abi_x86_32
+# required by dev-libs/glib-2.50.3::gentoo
+# required by sys-fs/udisks-2.1.8::gentoo
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=virtual/libiconv-0-r2 abi_x86_32
+# required by dev-libs/libxslt-1.1.29-r1::gentoo[crypt]
+# required by sys-fs/udisks-2.1.8::gentoo
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=dev-libs/libgcrypt-1.7.6 abi_x86_32
+# required by net-print/cups-2.2.2-r3::gentoo[dbus]
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=sys-apps/dbus-1.10.16-r1 abi_x86_32
+# required by x11-libs/libXdamage-1.1.4-r1::gentoo
+# required by media-libs/mesa-17.0.2::gentoo
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-proto/damageproto-1.2.1-r1 abi_x86_32
+# required by virtual/pam-0-r1::gentoo
+# required by sys-apps/systemd-233-r1::gentoo[pam]
+# required by sys-fs/udisks-2.1.8::gentoo[systemd]
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=sys-libs/pam-1.3.0 abi_x86_32
+# required by media-libs/mesa-17.0.2::gentoo
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-libs/libXdamage-1.1.4-r1 abi_x86_32
+# required by media-libs/fontconfig-2.12.1::gentoo
+# required by app-emulation/wine-2.3::gentoo[fontconfig]
+# required by app-emulation/wine (argument)
+>=media-libs/freetype-2.7.1-r2 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[mp3]
+# required by app-emulation/wine (argument)
+>=media-sound/mpg123-1.24.0 abi_x86_32
+# required by net-libs/gnutls-3.5.10::gentoo
+# required by net-print/cups-2.2.2-r3::gentoo[ssl]
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=dev-libs/libtasn1-4.10-r1 abi_x86_32
+# required by dev-util/pkgconfig-0.29.2::gentoo[-internal-glib]
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.5.10::gentoo
+# required by net-print/cups-2.2.2-r3::gentoo[ssl]
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=dev-libs/glib-2.50.3 abi_x86_32
+# required by media-libs/mesa-17.0.2::gentoo
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-proto/dri2proto-2.8-r1 abi_x86_32
+# required by dev-libs/glib-2.50.3::gentoo
+# required by sys-fs/udisks-2.1.8::gentoo
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=dev-libs/libpcre-8.40-r1 abi_x86_32
+# required by sys-devel/gettext-0.19.8.1::gentoo
+# required by dev-vcs/git-2.12.2::gentoo[nls]
+# required by app-portage/layman-2.4.2::gentoo[git]
+# required by app-portage/layman (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXi-1.7.9 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[lcms]
+# required by app-emulation/wine (argument)
+>=media-libs/lcms-2.8-r1 abi_x86_32
+# required by virtual/libudev-232::gentoo
+# required by app-emulation/wine-2.3::gentoo[udev]
+# required by app-emulation/wine (argument)
+>=sys-apps/systemd-233-r1 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[udev]
+# required by app-emulation/wine (argument)
+>=virtual/libudev-232 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[ldap]
+# required by app-emulation/wine (argument)
+>=net-nds/openldap-2.4.44-r1 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[fontconfig]
+# required by app-emulation/wine (argument)
+>=media-libs/fontconfig-2.12.1 abi_x86_32
+# required by media-libs/mesa-17.0.2::gentoo[dri3]
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-proto/dri3proto-1.0 abi_x86_32
+# required by x11-libs/libXcursor-1.1.14::gentoo
+# required by app-emulation/wine-2.3::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXfixes-5.0.3 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXcursor-1.1.14 abi_x86_32
+# required by app-emulation/wine-2.3::gentoo[xinerama]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXinerama-1.1.3 abi_x86_32
+# required by media-libs/mesa-17.0.2::gentoo[llvm]
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=sys-devel/llvm-4.0.0 abi_x86_32
+# required by dev-libs/libgcrypt-1.7.6::gentoo
+# required by media-video/vlc-2.2.4-r1::gentoo[gcrypt]
+# required by media-libs/phonon-vlc-0.9.1::gentoo
+# required by media-libs/phonon-4.9.1::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-5.9.4::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.7::gentoo
+>=dev-libs/libgpg-error-1.27-r1 abi_x86_32
+# required by sys-apps/systemd-233-r1::gentoo
+# required by sys-fs/udisks-2.1.8::gentoo[systemd]
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=sys-libs/libcap-2.25 abi_x86_32
+# required by x11-libs/libdrm-2.4.75::gentoo[video_cards_intel]
+# required by media-libs/mesa-17.0.2::gentoo
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-libs/libpciaccess-0.13.4 abi_x86_32
+# required by dev-libs/glib-2.50.3::gentoo[xattr]
+# required by sys-fs/udisks-2.1.8::gentoo
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=sys-apps/attr-2.4.47-r2 abi_x86_32
+# required by media-libs/mesa-17.0.2::gentoo
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-proto/glproto-1.4.17-r1 abi_x86_32
+# required by media-libs/freetype-2.7.1-r2::gentoo[bzip2]
+# required by media-video/vlc-2.2.4-r1::gentoo[truetype]
+# required by media-libs/phonon-vlc-0.9.1::gentoo
+# required by media-libs/phonon-4.9.1::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-5.9.4::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.7::gentoo
+>=app-arch/bzip2-1.0.6-r7 abi_x86_32
+# required by sys-apps/systemd-233-r1::gentoo[lz4]
+# required by sys-fs/udisks-2.1.8::gentoo[systemd]
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=app-arch/lz4-1.7.5-r1 abi_x86_32
+# required by media-libs/mesa-17.0.2::gentoo[dri3]
+# required by dev-qt/qtwayland-5.7.1::gentoo
+# required by kde-frameworks/kwayland-5.32.0::gentoo
+# required by kde-frameworks/plasma-5.32.0-r1::gentoo[wayland]
+# required by kde-frameworks/krunner-5.32.0::gentoo
+# required by kde-plasma/plasma-desktop-5.9.4::gentoo
+# required by kde-plasma/plasma-meta-5.9.4::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-proto/presentproto-1.1 abi_x86_32
+# required by x11-misc/primus-0.2::gentoo
+# required by x11-misc/bumblebee-3.2.1_p20170123::gentoo
+# required by x11-misc/bumblebee (argument)
+>=x11-drivers/nvidia-drivers-378.13 compat
+# required by net-libs/webkit-gtk-2.4.11-r200::gentoo
+# required by games-rpg/runescape-launcher-2.2.3::gentoo
+# required by games-rpg/runescape-launcher (argument)
+>=media-libs/harfbuzz-1.4.5 icu
+# required by media-libs/lcms-2.8-r1::gentoo[jpeg]
+# required by media-gfx/imagemagick-6.9.8.3::gentoo[lcms]
+# required by sci-mathematics/octave-4.2.1::gentoo[-graphicsmagick,imagemagick]
+# required by sci-mathematics/octave (argument)
+>=virtual/jpeg-0-r2:0 abi_x86_32
+# required by virtual/opengl-7.0-r1::gentoo
+# required by app-emulation/wine-2.3::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=media-libs/mesa-17.0.2 abi_x86_32
+# required by x11-libs/libXcursor-1.1.14::gentoo
+# required by app-emulation/wine-2.3::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXrender-0.9.10 abi_x86_32
+# required by virtual/jpeg-0-r2::gentoo
+# required by app-emulation/wine-2.3::gentoo[jpeg]
+# required by app-emulation/wine (argument)
+>=media-libs/libjpeg-turbo-1.5.1 abi_x86_32
+# required by sys-libs/pam-1.3.0::gentoo[cracklib]
+# required by virtual/pam-0-r1::gentoo
+# required by sys-apps/systemd-233-r1::gentoo[pam]
+# required by sys-fs/udisks-2.1.8::gentoo[systemd]
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=sys-libs/cracklib-2.9.6-r1 abi_x86_32
+# required by sys-apps/systemd-233-r1::gentoo
+# required by sys-fs/udisks-2.1.8::gentoo[systemd]
+# required by kde-frameworks/kdelibs-4.14.29-r1::gentoo[udisks]
+# required by kde-apps/katepart-4.14.3::gentoo[handbook]
+>=sys-apps/util-linux-2.29.2-r1 abi_x86_32
+# required by net-print/cups-2.2.2-r3::gentoo[ssl]
+# required by app-emulation/wine-2.3::gentoo[cups]
+# required by app-emulation/wine (argument)
+>=net-libs/gnutls-3.5.10 abi_x86_32
+# required by gnome-base/gnome-keyring-3.20.0::gentoo
+# required by app-crypt/libsecret-0.18.5::gentoo
+>=app-crypt/pinentry-1.0.0 gnome-keyring
+# required by dev-util/osc-0.154.0::gentoo
+# required by dev-util/obs-service-set_version-0.3::gentoo
+# required by dev-util/obs-service-meta-2::gentoo
+>=app-arch/rpm-4.12.0.1 python
+# required by media-gfx/gimp-2.9.4-r2::gentoo
+# required by gimp (argument)
+>=media-libs/libmypaint-1.3.0 gegl
+# required by www-client/firefox-52.0.1-r1::gentoo
+# required by firefox (argument)
+>=dev-lang/python-2.7.13:2.7 sqlite
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-harness-8.2::gentoo
+# required by dev-java/netbeans-java-8.2::gentoo
+# required by dev-java/netbeans-javafx-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_javafx]
+# required by netbeans (argument)
+>=dev-java/junit-4.12-r1 source
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-harness-8.2::gentoo
+# required by dev-java/netbeans-java-8.2::gentoo
+# required by dev-java/netbeans-javafx-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_javafx]
+# required by netbeans (argument)
+>=dev-java/swing-layout-1.0.4-r1 source
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-harness-8.2::gentoo
+# required by dev-java/netbeans-java-8.2::gentoo
+# required by dev-java/netbeans-javafx-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_javafx]
+# required by netbeans (argument)
+>=dev-java/oracle-jdk-bin-1.8.0.121 javafx
+# required by dev-python/translate-toolkit-2.0.0::gentoo[python_targets_python3_4]
+# required by kde-apps/lokalize-16.12.3::gentoo
+# required by kde-apps/kdesdk-meta-16.12.3::gentoo
+# required by kde-apps/kdesdk-meta (argument)
+>=dev-lang/python-3.4.6:3.4 sqlite

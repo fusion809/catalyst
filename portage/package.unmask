@@ -1,0 +1,29 @@
+# required by app-emulation/wine-staging-2.5::gentoo[mono]
+# required by wine-staging (argument)
+# /usr/portage/profiles/package.mask:
+# NP-Hardass <NP-Hardass@gentoo.org> (10 Apr 2017)
+# Masked for testing
+=app-emulation/wine-mono-4.7.0
+# required by app-emulation/wine-staging-2.5::gentoo[gecko]
+# required by wine-staging (argument)
+# /usr/portage/profiles/package.mask:
+# NP-Hardass <NP-Hardass@gentoo.org> (10 Apr 2017)
+# Masked for testing
+=app-emulation/wine-gecko-2.47-r1
+# required by app-emulation/wine-staging-2.5::gentoo
+# required by wine-staging (argument)
+# /usr/portage/profiles/package.mask:
+# NP-Hardass <NP-Hardass@gentoo.org> (10 Apr 2017)
+# Masked for testing
+=app-emulation/wine-desktop-common-20150204
+# required by app-emulation/wine-staging-2.5::gentoo
+# required by wine-staging (argument)
+# /usr/portage/profiles/package.mask:
+# NP-Hardass <NP-Hardass@gentoo.org> (10 Apr 2017)
+# Masked for testing
+=app-eselect/eselect-wine-1.1
+# required by wine-staging (argument)
+# /usr/portage/profiles/package.mask:
+# NP-Hardass <NP-Hardass@gentoo.org> (10 Apr 2017)
+# Masked for testing
+=app-emulation/wine-staging-2.5

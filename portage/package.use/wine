@@ -1,0 +1,4 @@
+# required by app-emulation/wine-staging-2.5::gentoo[gecko]
+# required by wine-staging (argument)
+>=app-emulation/wine-gecko-2.47-r1 abi_x86_32
+

@@ -1,0 +1,18 @@
+# required by games-rpg/runescape-launcher (argument)
+>=games-rpg/runescape-launcher-2.2.3 RuneScape-EULA
+# required by google-chrome (argument)
+>=www-client/google-chrome-57.0.2987.110 google-chrome
+# required by virtual/jdk-1.8.0-r3::gentoo
+# required by dev-java/animal-sniffer-annotations-1.15::gentoo
+# required by dev-java/guava-20.0::gentoo
+# required by dev-java/guice-4.1::gentoo
+# required by dev-java/testng-6.9.10::gentoo
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-harness-8.2::gentoo
+# required by dev-java/netbeans-java-8.2::gentoo
+# required by dev-java/netbeans-javafx-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_javafx]
+# required by netbeans (argument)
+>=dev-java/oracle-jdk-bin-1.8.0.121 Oracle-BCLA-JavaSE
+# required by urbanterror (argument)
+>=games-fps/urbanterror-4.2.023 Q3AEULA-20000111

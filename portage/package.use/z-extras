@@ -1,0 +1,30 @@
+# required by games-rpg/sumwars-0.5.8-r1::gentoo
+# required by games-rpg/sumwars (argument)
+>=dev-games/cegui-0.8.7 ogre
+# required by media-libs/libsdl-1.2.15-r9::gentoo[sound]
+# required by games-rpg/nwn-1.69-r1::gentoo
+# required by games-rpg/nwn (argument)
+>=media-libs/audiofile-0.3.6-r3 abi_x86_32
+# required by games-rpg/baldurs-gate-2-ee-1.3.2064-r1::games-overlay[-bundled-libs]
+# required by games-rpg/baldurs-gate-2-ee (argument)
+>=dev-libs/json-c-0.12 abi_x86_32
+# required by media-libs/audiofile-0.3.6-r3::gentoo[flac]
+# required by media-libs/libsdl-1.2.15-r9::gentoo[sound]
+# required by games-rpg/nwn-1.69-r1::gentoo
+# required by games-rpg/nwn (argument)
+>=media-libs/flac-1.3.2-r1 abi_x86_32
+# required by games-rpg/nwn-1.69-r1::gentoo
+# required by games-rpg/nwn (argument)
+>=media-libs/libsdl-1.2.15-r9 abi_x86_32
+# required by games-rpg/baldurs-gate-2-ee-1.3.2064-r1::games-overlay[-bundled-libs]
+# required by games-rpg/baldurs-gate-2-ee (argument)
+>=media-libs/openal-1.17.2 abi_x86_32
+# required by media-libs/flac-1.3.2-r1::gentoo[ogg]
+# required by media-libs/audiofile-0.3.6-r3::gentoo[flac]
+# required by media-libs/libsdl-1.2.15-r9::gentoo[sound]
+# required by games-rpg/nwn-1.69-r1::gentoo
+# required by games-rpg/nwn (argument)
+>=media-libs/libogg-1.3.2 abi_x86_32
+# required by games-strategy/opendungeons-9999::games-overlay
+# required by games-strategy/opendungeons (argument)
+>=dev-games/ogre-1.9.0-r1 cg ois

@@ -1,0 +1,8 @@
+# required by app-office/gnucash-2.6.15-r1::gentoo
+# required by gnucash (argument)
+>=x11-libs/goffice-0.8.17-r2:0.8 gnome
+# required by dev-scheme/guile-2.0.14::gentoo
+# required by app-office/gnucash-2.6.15-r1::gentoo
+# required by gnucash (argument)
+>=dev-libs/boehm-gc-7.4.2 threads
+

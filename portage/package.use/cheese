@@ -1,0 +1,5 @@
+media-libs/cogl gles2
+media-libs/clutter egl
+# required by media-video/cheese-3.22.1::gentoo
+# required by cheese (argument)
+>=media-libs/gst-plugins-base-1.10.4 theora

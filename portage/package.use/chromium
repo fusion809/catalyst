@@ -1,0 +1,7 @@
+# required by www-client/chromium-58.0.3029.19::gentoo
+# required by chromium (argument)
+>=dev-libs/libxml2-2.9.4-r1 icu
+# required by www-client/chromium-57.0.2987.133::fusion809[system-libvpx]
+# required by =www-client/chromium-57.0.2987.133 (argument)
+>=media-libs/libvpx-1.6.1 postproc
+

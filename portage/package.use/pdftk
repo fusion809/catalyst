@@ -1,0 +1,3 @@
+# required by app-text/pdftk-2.02::gentoo
+# required by pdftk (argument)
+>=sys-devel/gcc-5.4.0-r3 gcj

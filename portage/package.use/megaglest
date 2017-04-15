@@ -1,0 +1,12 @@
+# Used to include games-strategy/megaglest -static
+# Due to issues building Megaglest 3.11.1-r1 and 3.12.0
+# No longer needed as the build goes fine
+# required by games-strategy/megaglest-3.11.1-r1::gentoo[-static]
+# required by megaglest (argument)
+>=dev-libs/xerces-c-3.1.4-r1 icu
+# required by games-strategy/megaglest-3.11.1-r1::gentoo[model-viewer,editor]
+# required by megaglest (argument)
+>=x11-base/xorg-server-1.19.3 xvfb
+# required by games-strategy/megaglest-3.12.0::games-overlay
+# required by games-strategy/megaglest-data-3.12.0::games-overlay
+>=media-libs/libsdl2-2.0.5 haptic
