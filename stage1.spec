@@ -7,4 +7,4 @@ snapshot: latest
 source_subpath: default/stage3-amd64-latest
 update_seed: yes
 update_seed_command: --update --deep --newuse --with-bdeps=y @world
-portage_confdir: /etc/portage/
+portage_confdir: /data/GitHub/mine/packaging/catalyst/portage
